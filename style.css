@@ -8,6 +8,9 @@ body {
 	background: -moz-radial-gradient(bottom, #93E2F9, #797979);
 	background: radial-gradient(to top, #93E2F9, #797979);
 }
+div {
+	display: inline-block;
+}
 #a_cap {
 	border: 2px solid #DEDBD6;
 	border-radius: 8px;
@@ -15,9 +18,9 @@ body {
 	border-right: 43px;
 	text-align: center;
 	display: inline-block;
-	position: fixed;
 	margin-top: 7%;
 	margin-left: 16%;
+	margin-right: 25%;
 	font-size: 25px;
 	font-family: Cunia;
 }
@@ -62,7 +65,6 @@ body {
 	margin-left: 29%;
 	margin-top: 20%;
 	display: inline-block;
-	position: fixed;
 }
 .btn1 {
 	background: transparent;
@@ -78,6 +80,7 @@ body {
 	outline: none;
 	text-decoration: none;
 	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+	display: inline-block;
 }
 .btn1:hover,
 .btn1:active {
@@ -100,6 +103,7 @@ body {
 	outline: none;
 	text-decoration: none;
 	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+	display: inline-block;
 }
 .btn2:hover,
 .btn2:active {
@@ -114,4 +118,5 @@ audio {
 .cats {
 	width: 200px;
 	border-radius: 290px;
+	display: inline-block;
 }
