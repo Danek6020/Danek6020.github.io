@@ -6,6 +6,7 @@
 	<meta name="Keywords" content="music">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<title>Коты</title>
 </head>
 <body>
@@ -13,19 +14,25 @@
 	<table id="a_cap">
 		<caption>Genres</caption>
 		<tr>
-			<td><button class="btn">cat-rock</button></td>
+			<td><button class="btn" OnClick="a();">cat-rock</button></td>
 			<td><button class="btn">cat-pop</button></td>
 			<td><button class="btn">cat-blues</button></td>
 			<td><button class="btn">cat-alternative</button></td>
 		</tr>
 	</table>
+	<div><img class="cats" src="img/Screenshot_3.png"></div><br>
+	<div><img src="img/Screenshot_2.png" class="cats"></div><br>
+	<div><img src="img/Screenshot_1.png" class="cats"></div><br>
 	<table id="playlist">
 		<td><button class="btn1">&#9658;</button></td>
 		<td><button class="btn2">■</button></td>
 		<td><button class="btn2">⬇</button></td>
 	</table>
-	<div><img class="cats" src="img/Screenshot_3.png"></div>
-	<div><img src="img/Screenshot_2.png" class="cats"></div>
-	<div><img src="img/Screenshot_1.png" class="cats"></div>
+	<script type="text/javascript">
+		function a()
+		{
+			alert("Хомячок, я люблю тебя! :3")
+		}
+	</script>
 </body>
 </html>
